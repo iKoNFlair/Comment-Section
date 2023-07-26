@@ -1,5 +1,3 @@
-/* CommentSection.module.css */
-
 .commentSection {
   width: 400px;
   margin: 0 auto;
@@ -50,7 +48,6 @@
   outline: none;
 }
 
-/* Styling for the comments */
 .commentContainer {
   margin-top: 20px;
   padding: 10px;
