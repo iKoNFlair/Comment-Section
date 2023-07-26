@@ -2,4 +2,10 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 100vh;
+  background-color: rgb(84, 137, 180);
+}
+
+::-webkit-scrollbar {
+  display: none;
 }

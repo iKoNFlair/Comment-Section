@@ -1,0 +1,87 @@
+/* commentStyles.css */
+
+.commentContainer {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.content {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.interactionContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.likeButton {
+  margin-right: 5px;
+  background-color: #4caf50;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dislikeButton {
+  margin-right: 5px;
+  background-color: #f44336;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.score {
+  font-size: 16px;
+}
+
+.replyContainer {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.replyInput {
+  flex: 1;
+  padding: 8px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.addReplyButton {
+  background-color: #008cba;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.repliesContainer {
+  margin-top: 10px;
+  border-left: 2px solid #ccc;
+  padding-left: 10px;
+}
+
+.replyItem {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.replyText {
+  font-weight: bold;
+}
+
+.replyCount {
+  margin-left: 5px;
+  color: #888;
+}
