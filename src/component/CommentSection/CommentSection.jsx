@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Comment from "../Comment/Comment";
-import styles from "./CommentSection.module.css"; // Import the external CSS module
+import styles from "./CommentSection.module.css";
 
 const CommentSection = () => {
   const [comments, setComments] = useState([]);
